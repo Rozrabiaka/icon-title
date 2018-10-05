@@ -1,0 +1,78 @@
+
+#tabs .tab_box {
+    display: none;
+    background: #fff;
+    min-height: 350px;
+    margin-top: 5px;
+    padding: 20px;
+    border: 1px solid #3d3f4b;
+    z-index: 1;
+}
+#tab_menu a {
+    background: #3d3f4b;
+    color: #fff;
+    padding: 5px 30px;
+    border-top: 1px solid #fff;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+    margin-right: 5px;
+    cursor: pointer;
+}
+#tab_menu .checked {
+    background: #fff;
+    color: #3d3f4b;
+    background: #fff;
+    color: #3d3f4b;
+    border: 1px solid #3d3f4b;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 6px;
+    z-index: 2;
+}
+label {
+    margin-top: 10px;
+    font-weight: bold;
+    display: inline-block;
+}
+input {
+    min-width: 200px;;
+}
+.title {
+    font-size: 20px; color: #3d3f4b; font-weight: bold; margin-top:30px; margin-bottom:10px;
+}
+.error-message{
+    color:red;
+}
+.p-text-success-message{
+    color:green;
+    font-size:20px;
+}
+.header-plugin{
+    position:relative;
+    background: #3d3f4b;
+    height: 100px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.header-plugin-title{
+    position: absolute;
+    color: #f0f0f0;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 36px;
+    top: 50%;
+    left: 100px;
+    margin-top: -18px;
+    font-family: 'Open Sans',sans-serif;
+}
+.drop-down-page-menu{
+    display:none;
+    overflow: scroll;
+    width:15%;
+    height:200px;
+
+}
+.block-inputs-pages{
+    width:auto;
+}
+
+
