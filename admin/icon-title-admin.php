@@ -28,7 +28,7 @@ class Icon_Title_Admin
     {
         wp_enqueue_style('sc-admin-css', ICON_TITLE_ADMIN_DIR . '/css/icon-title.css', array(), ICON_TITLE_VERSION);
         wp_enqueue_script('jquery');
-        wp_enqueue_script('sc-admin-js', ICON_TITLE_ADMIN_DIR . '/js/icon-title.js', array('jquery'), ICON_TITLE_VERSION);
+        wp_enqueue_script('sc-admin-js', ICON_TITLE_ADMIN_DIR . '/js/icon-title.js', array('jquery'), ICON_TITLE_VERSION, 'footer');
     }
 
     public function item_title_settings_page()

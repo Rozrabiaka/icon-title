@@ -75,33 +75,3 @@
                style="margin-top: 15px;"/>
     </form>
 </div>
-
-<script>
-    var $j = jQuery;
-    $j("#tab_menu a").click(function () {
-        $j("#tab_menu a").removeAttr("class");
-        $j(this).attr("class", "checked");
-        $j("#tabs .tab_box").removeAttr("style");
-        $j("#tabs div[tab=" + jQuery(this).attr("tab") + "]").attr("style", "display:block;");
-    });
-
-    $(".input-selected-item").click(function () {
-        $('.drop-down-page-menu').toggle();
-    });
-
-    $(document).mouseup(function (e) {
-        var container = $("#drop-down");
-        if (container.has(e.target).length === 0) {
-            container.hide();
-        }
-    });
-
-</script>
-
-<script type="text/javascript" >
-    $(document).ready(function(){
-        $('input:radio[name=pages]').change(function(){
-                $("input[name=name-page-choose]").val(this.value);
-        });
-    });/*end  ready*/
-</script>
